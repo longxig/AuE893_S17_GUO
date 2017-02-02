@@ -1,0 +1,2 @@
+assignment1
+-DCATKIN_DEVEL_PREFIX=/home/longxig/AuE893_S17_GUO/devel -DCMAKE_INSTALL_PREFIX=/home/longxig/AuE893_S17_GUO/install -G Unix Makefiles
