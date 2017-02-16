@@ -44,8 +44,11 @@ int main(int argc, char **argv)
 	ROS_INFO("\n\n\n******START TESTING************\n");
 
 	//moveGoal(4,4,0.2);
-
-	gridClean(); 
+	moveGoal(1,0,0.1);
+	moveGoal(1,1,0.1);
+	moveGoal(0,1,0.1);
+	moveGoal(0,0,0.1);
+	//gridClean(); 
 
 	ros::spin();
 	return 0;
@@ -103,16 +106,16 @@ void moveGoal(double x3, double y3, double distance_tolerance){
 		if (fabs(angleerror(x3,y3))>thres){
 			vel_msg.linear.x =0;
 			vel_msg.angular.z = kpa*angleerror(x3,y3);
-			if (fabs(vel_msg.angular.z)<0.03){
-				if (vel_msg.angular.z>0){vel_msg.angular.z=0.03;}
-				else if(vel_msg.angular.z<0){vel_msg.angular.z=-0.03;}
+			if (fabs(vel_msg.angular.z)<0.05){
+				if (vel_msg.angular.z>0){vel_msg.angular.z=0.05;}
+				else if(vel_msg.angular.z<0){vel_msg.angular.z=-0.05;}
 				else {}
 			}
 		}
 		else {
 			vel_msg.linear.x =kpd*getDistance(x3,y3);
-			if (vel_msg.linear.x>0.3){vel_msg.linear.x=0.3;}
-			else if (vel_msg.linear.x<0.05){vel_msg.linear.x=0.05;}
+			if (vel_msg.linear.x>0.1){vel_msg.linear.x=0.1;}
+			else if (vel_msg.linear.x<0.07){vel_msg.linear.x=0.07;}
 			else{}
 			vel_msg.angular.z = 0.2*angleerror(x3,y3);
 		}

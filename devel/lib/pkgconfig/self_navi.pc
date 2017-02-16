@@ -1,0 +1,8 @@
+prefix=/home/longxig/AuE893_S17_GUO/devel
+
+Name: self_navi
+Description: Description of self_navi
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/longxig/AuE893_S17_GUO/devel/lib 
+Requires: 

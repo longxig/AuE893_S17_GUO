@@ -118,6 +118,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/longxig/AuE893_S17_GUO/build/gtest/cmake_install.cmake")
   INCLUDE("/home/longxig/AuE893_S17_GUO/build/assignment1/cmake_install.cmake")
+  INCLUDE("/home/longxig/AuE893_S17_GUO/build/assignment3/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

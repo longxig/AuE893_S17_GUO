@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/longxig/AuE893_S17_GUO/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/longxig/AuE893_S17_GUO/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/longxig/AuE893_S17_GUO/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/longxig/AuE893_S17_GUO/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/longxig/AuE893_S17_GUO/devel/share/common-lisp"
 export ROS_PACKAGE_PATH="/home/longxig/AuE893_S17_GUO/src:$ROS_PACKAGE_PATH"

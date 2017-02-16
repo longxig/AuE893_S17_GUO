@@ -643,6 +643,58 @@ tf_generate_messages_py/fast:
 	$(MAKE) -f assignment1/CMakeFiles/tf_generate_messages_py.dir/build.make assignment1/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named gazebo_follow_node
+
+# Build rule for target.
+gazebo_follow_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_follow_node
+.PHONY : gazebo_follow_node
+
+# fast build rule for target.
+gazebo_follow_node/fast:
+	$(MAKE) -f assignment3/CMakeFiles/gazebo_follow_node.dir/build.make assignment3/CMakeFiles/gazebo_follow_node.dir/build
+.PHONY : gazebo_follow_node/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_generate_messages_cpp
+
+# Build rule for target.
+kobuki_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_cpp
+.PHONY : kobuki_msgs_generate_messages_cpp
+
+# fast build rule for target.
+kobuki_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build
+.PHONY : kobuki_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_generate_messages_lisp
+
+# Build rule for target.
+kobuki_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_lisp
+.PHONY : kobuki_msgs_generate_messages_lisp
+
+# fast build rule for target.
+kobuki_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build
+.PHONY : kobuki_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_generate_messages_py
+
+# Build rule for target.
+kobuki_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_py
+.PHONY : kobuki_msgs_generate_messages_py
+
+# fast build rule for target.
+kobuki_msgs_generate_messages_py/fast:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build
+.PHONY : kobuki_msgs_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -694,6 +746,10 @@ help:
 	@echo "... tf_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
+	@echo "... gazebo_follow_node"
+	@echo "... kobuki_msgs_generate_messages_cpp"
+	@echo "... kobuki_msgs_generate_messages_lisp"
+	@echo "... kobuki_msgs_generate_messages_py"
 .PHONY : help
 
 

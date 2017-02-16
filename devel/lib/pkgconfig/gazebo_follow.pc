@@ -1,0 +1,8 @@
+prefix=/home/longxig/AuE893_S17_GUO/devel
+
+Name: gazebo_follow
+Description: Description of gazebo_follow
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/longxig/AuE893_S17_GUO/devel/lib 
+Requires: 

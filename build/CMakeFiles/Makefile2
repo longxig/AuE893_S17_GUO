@@ -230,7 +230,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles  3
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -261,7 +261,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles  4
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -1293,6 +1293,152 @@ assignment1/CMakeFiles/tf_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: assignment1/CMakeFiles/tf_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory assignment3
+
+# Convenience name for "all" pass in the directory.
+assignment3/all: assignment3/CMakeFiles/gazebo_follow_node.dir/all
+.PHONY : assignment3/all
+
+# Convenience name for "clean" pass in the directory.
+assignment3/clean: assignment3/CMakeFiles/gazebo_follow_node.dir/clean
+assignment3/clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/clean
+assignment3/clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/clean
+assignment3/clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean
+.PHONY : assignment3/clean
+
+# Convenience name for "preinstall" pass in the directory.
+assignment3/preinstall:
+.PHONY : assignment3/preinstall
+
+#=============================================================================
+# Target rules for target assignment3/CMakeFiles/gazebo_follow_node.dir
+
+# All Build rule for target.
+assignment3/CMakeFiles/gazebo_follow_node.dir/all:
+	$(MAKE) -f assignment3/CMakeFiles/gazebo_follow_node.dir/build.make assignment3/CMakeFiles/gazebo_follow_node.dir/depend
+	$(MAKE) -f assignment3/CMakeFiles/gazebo_follow_node.dir/build.make assignment3/CMakeFiles/gazebo_follow_node.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles  2
+	@echo "Built target gazebo_follow_node"
+.PHONY : assignment3/CMakeFiles/gazebo_follow_node.dir/all
+
+# Include target in all.
+all: assignment3/CMakeFiles/gazebo_follow_node.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+assignment3/CMakeFiles/gazebo_follow_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/gazebo_follow_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+.PHONY : assignment3/CMakeFiles/gazebo_follow_node.dir/rule
+
+# Convenience name for target.
+gazebo_follow_node: assignment3/CMakeFiles/gazebo_follow_node.dir/rule
+.PHONY : gazebo_follow_node
+
+# clean rule for target.
+assignment3/CMakeFiles/gazebo_follow_node.dir/clean:
+	$(MAKE) -f assignment3/CMakeFiles/gazebo_follow_node.dir/build.make assignment3/CMakeFiles/gazebo_follow_node.dir/clean
+.PHONY : assignment3/CMakeFiles/gazebo_follow_node.dir/clean
+
+# clean rule for target.
+clean: assignment3/CMakeFiles/gazebo_follow_node.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles 
+	@echo "Built target kobuki_msgs_generate_messages_cpp"
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+kobuki_msgs_generate_messages_cpp: assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule
+.PHONY : kobuki_msgs_generate_messages_cpp
+
+# clean rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/clean
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles 
+	@echo "Built target kobuki_msgs_generate_messages_lisp"
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+kobuki_msgs_generate_messages_lisp: assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule
+.PHONY : kobuki_msgs_generate_messages_lisp
+
+# clean rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/clean
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/longxig/AuE893_S17_GUO/build/CMakeFiles 
+	@echo "Built target kobuki_msgs_generate_messages_py"
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/longxig/AuE893_S17_GUO/build/CMakeFiles 0
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+kobuki_msgs_generate_messages_py: assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule
+.PHONY : kobuki_msgs_generate_messages_py
+
+# clean rule for target.
+assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean
+.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
