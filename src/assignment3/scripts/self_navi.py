@@ -38,7 +38,7 @@ class Navigate():
         self.avgdis = [10, 10, 10, 10, 10, 10, 10, 10]
         self.avgwidth = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
         self.absmindis = 10
-        self.disthres = [0.5, 0.7, 1.0]
+        self.disthres = [0.4, 0.65, 0.9]
         self.finalmin = 10
         self.finalminpos = 0
     
@@ -177,7 +177,7 @@ class Navigate():
         while not rospy.is_shutdown() and self.getDistance(x, y) > tolerance and self.absmindis > self.disthres[2]:
             
             if self.getDistance(x, y) > 1:
-                thres = 1.4
+                thres = 3.1
             elif self.getDistance(x, y) > 0.5:
                 thres = 0.8
             else:
@@ -194,7 +194,7 @@ class Navigate():
                         vel_msg.angular.z = -1*self.minrotate
             else:
                 vel_msg.linear.x = 0.1*self.getDistance(x, y)
-                vel_msg.angular.z = 0.2*self.rotateangle(x, y)
+                vel_msg.angular.z = 0.13*self.rotateangle(x, y)
                 if vel_msg.linear.x > self.maxspeed:
                     vel_msg.linear.x = self.maxspeed
                 elif vel_msg.linear.x < self.minspeed:
@@ -213,7 +213,7 @@ class Navigate():
         while (not rospy.is_shutdown()) and (self.getDistance(x, y) > tolerance) and (self.absmindis > self.disthres[1]) and (self.absmindis <= self.disthres[2]):
 
             if self.getDistance(x, y) > 1:
-                thres = 2.4
+                thres = 2.8
             elif self.getDistance(x, y) > 0.5:
                 thres = 0.25
             else:
@@ -252,14 +252,14 @@ class Navigate():
             if self.absmindis > self.disthres[2]:
                 rospy.loginfo("Full speed")
                 self.MoveTo(x, y, tolerance)
-            elif self.absmindis > self.disthres[1]:
+            elif self.absmindis > self.disthres[1] and  abs(self.rotateangle(x, y)) < 3.1:
 
 
                 if self.finalminpos > 0:
-                    togoangle = -1*(40 - math.degrees(self.finalminpos))
+                    togoangle = -1*(45 - math.degrees(self.finalminpos))
                     self.simplerotate(togoangle)
                 elif self.finalminpos < 0:
-                    togoangle = 40 + math.degrees(self.finalminpos)
+                    togoangle = 45 + math.degrees(self.finalminpos)
                     self.simplerotate(togoangle)
 
                 '''
@@ -306,14 +306,23 @@ if __name__ == '__main__':
     try:
         rospy.init_node('self_navi', anonymous=False)
         navi = Navigate()
-        time.sleep(0.1)
-        navi.IntelMove(4, 4, 0.15)
-        time.sleep(0.1)
-        navi.IntelMove(2, -2.5, 0.15)
-        time.sleep(0.1)
-        navi.IntelMove(-3, -3, 0.15)
-        time.sleep(0.1)
-        navi.IntelMove(-2, 1, 0.15)
-        time.sleep(0.1)
+
+        while not rospy.is_shutdown():
+            time.sleep(0.1)
+            navi.IntelMove(4, 4, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(2, -2.5, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(-3, -3, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(-2, 1, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(4, 4, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(0, -5, 0.15)
+            time.sleep(0.1)
+            navi.IntelMove(0, 5, 0.15)
+            time.sleep(0.1)
+
     except rospy.ROSInterruptException:
         rospy.loginfo("Node Terminated")

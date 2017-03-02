@@ -248,48 +248,6 @@ gazebo_cleaner_node/fast:
 .PHONY : gazebo_cleaner_node/fast
 
 # Convenience name for target.
-assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make assignment1/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make assignment1/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make assignment1/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 assignment1/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
 	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : assignment1/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
@@ -416,90 +374,6 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make assignment1/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make assignment1/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make assignment1/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make assignment1/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make assignment1/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/build.make assignment1/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 assignment1/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
 	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : assignment1/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
@@ -621,9 +495,6 @@ help:
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... gazebo_cleaner_node"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -638,12 +509,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_lisp"

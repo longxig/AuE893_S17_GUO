@@ -163,48 +163,6 @@ gazebo_follow_node/fast:
 	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment3/CMakeFiles/gazebo_follow_node.dir/build.make assignment3/CMakeFiles/gazebo_follow_node.dir/build
 .PHONY : gazebo_follow_node/fast
 
-# Convenience name for target.
-assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule
-.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-kobuki_msgs_generate_messages_cpp: assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/rule
-.PHONY : kobuki_msgs_generate_messages_cpp
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_cpp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build
-.PHONY : kobuki_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule
-.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-kobuki_msgs_generate_messages_lisp: assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/rule
-.PHONY : kobuki_msgs_generate_messages_lisp
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_lisp/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build
-.PHONY : kobuki_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f CMakeFiles/Makefile2 assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule
-.PHONY : assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-kobuki_msgs_generate_messages_py: assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/rule
-.PHONY : kobuki_msgs_generate_messages_py
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_py/fast:
-	cd /home/longxig/AuE893_S17_GUO/build && $(MAKE) -f assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make assignment3/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build
-.PHONY : kobuki_msgs_generate_messages_py/fast
-
 src/robot_cleaner.o: src/robot_cleaner.cpp.o
 .PHONY : src/robot_cleaner.o
 
@@ -240,9 +198,6 @@ help:
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
-	@echo "... kobuki_msgs_generate_messages_cpp"
-	@echo "... kobuki_msgs_generate_messages_lisp"
-	@echo "... kobuki_msgs_generate_messages_py"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"

@@ -1,0 +1,8 @@
+prefix=/home/longxig/AuE893_S17_GUO/devel
+
+Name: mybot_description
+Description: Description of mybot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/longxig/AuE893_S17_GUO/devel/lib 
+Requires: 
